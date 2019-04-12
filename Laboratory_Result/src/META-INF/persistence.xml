@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Laboratory_ResultPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>laboratory_result.Urineanalysis</class>
+    <class>laboratory_result.Bloodanalysis</class>
+    <class>laboratory_result.Patient</class>
+    <class>laboratory_result.Pathologyanalysis</class>
+    <class>laboratory_result.Authorized</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/LaboratoryDB"/>
+      <property name="javax.persistence.jdbc.user" value="lab"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="lab"/>
+    </properties>
+  </persistence-unit>
+</persistence>
