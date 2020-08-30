@@ -1,5 +1,7 @@
 ### LaboratoryResultAutomation
+
 **Laboratory Results Automation Project by Java.**
+
 ***Project Description:*** An abstract laboratory database was created and the operations performed in any laboratory were simulated.
 (Analysis result entry by the authorized person, analysis deletion, patient record deletion, patient record addition, tracking and listing the personal information of all patients in the system, seeing the results by entering the necessary information, etc.)
 
